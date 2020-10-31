@@ -18,7 +18,7 @@ function init(bundle, parent, options = {}) {
 
   const player = r360.compositor.createVideoPlayer('myplayer');
 // Set the video to be played, and its format
-   player.setSource('static_assets/360.mp4', '3D', 'mp4');
+   player.setSource('https://hifilorau.s3-us-west-2.amazonaws.com/360.mp4', '3D', 'mp4');
 
    player.play()
 
